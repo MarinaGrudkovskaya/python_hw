@@ -4,11 +4,11 @@
 # повернуты вверх одной и той же стороной. Выведите минимальное
 # количество монет, которые нужно перевернуть.
 # 5 -> 1 0 1 1 0
-# # 2
-# n = int(input('How meny manets - '))
-# m = int(input('How meny manets is head - '))
+# 2
+n = int(input('How meny manets - '))
+m = int(input('How meny manets is head - '))
 
-# if ((n - m) - m) > 0:
-#     print(m)
-# else:
-#     print(n-m)
+if ((n - m) - m) > 0:
+    print(m)
+else:
+    print(n-m)
