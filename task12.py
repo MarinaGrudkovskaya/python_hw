@@ -18,7 +18,7 @@ else:
           if s == x + y and p == x*y:
               print(x,y)
 if s != x + y and p != x*y: 
-    print('mistake2')
+    print()
 
 
 
