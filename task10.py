@@ -5,10 +5,26 @@
 # количество монет, которые нужно перевернуть.
 # 5 -> 1 0 1 1 0
 # 2
-n = int(input('How meny manets - '))
-m = int(input('How meny manets is head - '))
+# n = int(input('How meny manets - '))
+# m = int(input('How meny manets is head - '))
 
-if ((n - m) - m) > 0:
-    print(m)
-else:
-    print(n-m)
+# if ((n - m) - m) > 0:
+#     print(m)
+# else:
+#     print(n-m)
+
+n = int(input('Введите колличество монет: '))
+
+y = 0
+z = 0
+
+for i in range(n):
+    x = int(input('Введите сторону монетки, орел-1, решка-0: '))
+    if x == 0:
+        y +=1
+    else: z +=1
+if y > z:    
+    print(z)
+else: print(y)
+print('решек было -', y)
+print('oрлов всего -', z)
