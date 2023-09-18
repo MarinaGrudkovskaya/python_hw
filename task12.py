@@ -7,18 +7,22 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
-s = int(input('the sum of nambers - '))
-p = int(input('the product of nambers - '))
+# s = int(input('the sum of nambers - '))
+# p = int(input('the product of nambers - '))
 
-if s > 2000 or p > 1000000:
-    print('mistake1')
-else:
-    for x in range(s):
-        for y in range(s):
-          if s == x + y and p == x*y:
-              print(x,y)
-if s != x + y and p != x*y: 
-    print()
+# if s > 2000 or p > 1000000:
+#     print('mistake1')
+# else:
+#     for x in range(s):
+#         for y in range(s):
+#           if s == x + y and p == x*y:
+#               print(x,y)
+# if s != x + y and p != x*y: 
+#     print()
+
+
+
+
 
 
 
