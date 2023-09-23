@@ -16,5 +16,4 @@ set_2 = set(i for i in (input(f"'введите {m} элементов множ�
 
 set_3 = (list([set_1 & set_2]))
 set_3.sort()
-
 print(set_3)

@@ -29,5 +29,6 @@ while (i < k):
         sum = list_1[i] + list_1[i-1] + list_1[i+1]  
         summ.append(sum)
     i +=1
-summ.sort()        
+summ.sort()    
+    
 print(f'{summ[-1]}')
